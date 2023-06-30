@@ -11,7 +11,8 @@ import SwiftUI
 struct PopularPexelsiOSApp: App {
     var body: some Scene {
         WindowGroup {
-            PopularVideosView()
+            let viewModel = PopularVideosViewModel()
+            PopularVideosView(viewModel)
         }
     }
 }

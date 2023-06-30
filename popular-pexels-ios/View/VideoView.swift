@@ -10,26 +10,21 @@ import AVKit
 
 struct VideoView: View {
     private let viewModel: VideoViewModel
-    @State private var player: AVPlayer
+    @State private var player: AVPlayer?
     
     init(_ viewModel: VideoViewModel) {
         self.viewModel = viewModel
-        self.player = AVPlayer()
     }
     
     var body: some View {
-        NavigationView {
-            VStack {
-                VideoPlayer(player: player)
-                    .onAppear {
-                        if let link = viewModel.video.videoFiles.first?.link, let url = URL(string: link) {
-                            player = AVPlayer(url: url)
-                            player.play()
-                        }
-                    }
+        VideoPlayer(player: player)
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                if let link = viewModel.video.videoFiles.first?.link, let url = URL(string: link) {
+                    player = AVPlayer(url: url)
+                    player?.play()
+                }
             }
-            .navigationBarTitle(viewModel.video.user.name, displayMode: .inline)
-        }
     }
 }
 

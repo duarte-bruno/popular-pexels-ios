@@ -33,6 +33,10 @@
 		75EA11432A4F42A700DE79C2 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */; };
 		75EA11442A4F42A700DE79C2 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */; };
 		75EA11452A4F42A700DE79C2 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */; };
+		75EA11472A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */; };
+		75EA11482A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */; };
+		75EA11492A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */; };
+		75EA114B2A4F47DE00DE79C2 /* popularVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = 75EA114A2A4F457000DE79C2 /* popularVideos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,8 @@
 		75EA113B2A4F400E00DE79C2 /* video.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
 		75EA113E2A4F410D00DE79C2 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularVideosViewModel.swift; sourceTree = "<group>"; };
+		75EA114A2A4F457000DE79C2 /* popularVideos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = popularVideos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */,
+				75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -204,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				75EA113B2A4F400E00DE79C2 /* video.json */,
+				75EA114A2A4F457000DE79C2 /* popularVideos.json */,
 			);
 			path = VideoPreview;
 			sourceTree = "<group>";
@@ -312,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA114B2A4F47DE00DE79C2 /* popularVideos.json in Resources */,
 				75EA113C2A4F403600DE79C2 /* video.json in Resources */,
 				75EA11242A4F312300DE79C2 /* Launch Screen.storyboard in Resources */,
 				75EA11012A4F2FC400DE79C2 /* Preview Assets.xcassets in Resources */,
@@ -340,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA11472A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */,
 				75EA113F2A4F410D00DE79C2 /* VideoView.swift in Sources */,
 				75EA11382A4F3FBE00DE79C2 /* DataModel.swift in Sources */,
 				75EA11282A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
@@ -354,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA11482A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */,
 				75EA11402A4F410D00DE79C2 /* VideoView.swift in Sources */,
 				75EA11392A4F3FBE00DE79C2 /* DataModel.swift in Sources */,
 				75EA11292A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
@@ -368,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA11492A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */,
 				75EA112A2A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA11412A4F410D00DE79C2 /* VideoView.swift in Sources */,
 				75EA11452A4F42A700DE79C2 /* VideoViewModel.swift in Sources */,

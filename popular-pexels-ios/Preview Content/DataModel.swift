@@ -8,6 +8,7 @@
 import Foundation
 
 var videoPreview: Video = load("video.json")
+var popularVideosPreview: PopularVideosResponse = load("popularVideos.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
