@@ -37,6 +37,15 @@
 		75EA11482A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */; };
 		75EA11492A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */; };
 		75EA114B2A4F47DE00DE79C2 /* popularVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = 75EA114A2A4F457000DE79C2 /* popularVideos.json */; };
+		75EA114E2A4F540B00DE79C2 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA114D2A4F540B00DE79C2 /* HttpRequest.swift */; };
+		75EA114F2A4F540B00DE79C2 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA114D2A4F540B00DE79C2 /* HttpRequest.swift */; };
+		75EA11502A4F540B00DE79C2 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA114D2A4F540B00DE79C2 /* HttpRequest.swift */; };
+		75EA11522A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11512A4F543200DE79C2 /* UrlSessionRequest.swift */; };
+		75EA11532A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11512A4F543200DE79C2 /* UrlSessionRequest.swift */; };
+		75EA11542A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11512A4F543200DE79C2 /* UrlSessionRequest.swift */; };
+		75EA11562A4F552E00DE79C2 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11552A4F552E00DE79C2 /* VideoService.swift */; };
+		75EA11572A4F552E00DE79C2 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11552A4F552E00DE79C2 /* VideoService.swift */; };
+		75EA11582A4F552E00DE79C2 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11552A4F552E00DE79C2 /* VideoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,9 @@
 		75EA11422A4F42A700DE79C2 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		75EA11462A4F441800DE79C2 /* PopularVideosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularVideosViewModel.swift; sourceTree = "<group>"; };
 		75EA114A2A4F457000DE79C2 /* popularVideos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = popularVideos.json; sourceTree = "<group>"; };
+		75EA114D2A4F540B00DE79C2 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		75EA11512A4F543200DE79C2 /* UrlSessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionRequest.swift; sourceTree = "<group>"; };
+		75EA11552A4F552E00DE79C2 /* VideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,7 @@
 				75EA11302A4F3CED00DE79C2 /* ViewModel */,
 				75EA11262A4F33F500DE79C2 /* View */,
 				75EA112B2A4F37DF00DE79C2 /* Model */,
+				75EA114C2A4F53EA00DE79C2 /* Service */,
 				75EA11312A4F3D3D00DE79C2 /* Components */,
 				75EA11252A4F330500DE79C2 /* Resources */,
 				75EA10FF2A4F2FC400DE79C2 /* Preview Content */,
@@ -214,6 +227,16 @@
 				75EA114A2A4F457000DE79C2 /* popularVideos.json */,
 			);
 			path = VideoPreview;
+			sourceTree = "<group>";
+		};
+		75EA114C2A4F53EA00DE79C2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				75EA114D2A4F540B00DE79C2 /* HttpRequest.swift */,
+				75EA11512A4F543200DE79C2 /* UrlSessionRequest.swift */,
+				75EA11552A4F552E00DE79C2 /* VideoService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,8 +377,11 @@
 				75EA11382A4F3FBE00DE79C2 /* DataModel.swift in Sources */,
 				75EA11282A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA112D2A4F380C00DE79C2 /* Video.swift in Sources */,
+				75EA114E2A4F540B00DE79C2 /* HttpRequest.swift in Sources */,
+				75EA11562A4F552E00DE79C2 /* VideoService.swift in Sources */,
 				75EA11432A4F42A700DE79C2 /* VideoViewModel.swift in Sources */,
 				75EA10FA2A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift in Sources */,
+				75EA11522A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */,
 				75EA11332A4F3D5A00DE79C2 /* VideoCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,8 +395,11 @@
 				75EA11392A4F3FBE00DE79C2 /* DataModel.swift in Sources */,
 				75EA11292A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA112E2A4F380C00DE79C2 /* Video.swift in Sources */,
+				75EA114F2A4F540B00DE79C2 /* HttpRequest.swift in Sources */,
+				75EA11572A4F552E00DE79C2 /* VideoService.swift in Sources */,
 				75EA11442A4F42A700DE79C2 /* VideoViewModel.swift in Sources */,
 				75EA110B2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift in Sources */,
+				75EA11532A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */,
 				75EA11342A4F3D5A00DE79C2 /* VideoCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,12 +409,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EA11492A4F441800DE79C2 /* PopularVideosViewModel.swift in Sources */,
+				75EA11582A4F552E00DE79C2 /* VideoService.swift in Sources */,
+				75EA11502A4F540B00DE79C2 /* HttpRequest.swift in Sources */,
 				75EA112A2A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA11412A4F410D00DE79C2 /* VideoView.swift in Sources */,
 				75EA11452A4F42A700DE79C2 /* VideoViewModel.swift in Sources */,
 				75EA11352A4F3D5A00DE79C2 /* VideoCard.swift in Sources */,
 				75EA112F2A4F380C00DE79C2 /* Video.swift in Sources */,
 				75EA11152A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift in Sources */,
+				75EA11542A4F543200DE79C2 /* UrlSessionRequest.swift in Sources */,
 				75EA11172A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift in Sources */,
 				75EA113A2A4F3FBE00DE79C2 /* DataModel.swift in Sources */,
 			);

@@ -7,20 +7,20 @@
 
 import Foundation
 
-struct Video: Identifiable, Decodable {
+struct Video: Identifiable, Codable {
     var id: Int
     var image: String
     var duration: Int
     var user: User
     var videoFiles: [VideoFile]
     
-    struct User: Identifiable, Decodable {
+    struct User: Identifiable, Codable {
         var id: Int
         var name: String
         var url: String
     }
     
-    struct VideoFile: Identifiable, Decodable {
+    struct VideoFile: Identifiable, Codable {
         var id: Int
         var quality: String
         var fileType: String

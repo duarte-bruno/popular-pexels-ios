@@ -12,7 +12,7 @@ struct PopularPexelsiOSApp: App {
     var body: some Scene {
         WindowGroup {
             let viewModel = PopularVideosViewModel()
-            PopularVideosView(viewModel)
+            PopularVideosView(viewModel: viewModel)
         }
     }
 }
