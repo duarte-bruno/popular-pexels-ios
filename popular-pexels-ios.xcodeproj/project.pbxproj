@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75EA10FA2A4F2FC300DE79C2 /* popular_pexels_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA10F92A4F2FC300DE79C2 /* popular_pexels_iosApp.swift */; };
+		75EA10FA2A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */; };
 		75EA10FC2A4F2FC300DE79C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */; };
 		75EA10FE2A4F2FC400DE79C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */; };
 		75EA11012A4F2FC400DE79C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA11002A4F2FC400DE79C2 /* Preview Assets.xcassets */; };
 		75EA110B2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA110A2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift */; };
 		75EA11152A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11142A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift */; };
 		75EA11172A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11162A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift */; };
+		75EA11242A4F312300DE79C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EA11232A4F312300DE79C2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		75EA10F62A4F2FC300DE79C2 /* popular-pexels-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popular-pexels-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75EA10F92A4F2FC300DE79C2 /* popular_pexels_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_pexels_iosApp.swift; sourceTree = "<group>"; };
+		75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularPexelsiOSApp.swift; sourceTree = "<group>"; };
 		75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75EA11002A4F2FC400DE79C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		75EA11102A4F2FC400DE79C2 /* popular-pexels-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popular-pexels-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA11142A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_pexels_iosUITests.swift; sourceTree = "<group>"; };
 		75EA11162A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_pexels_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75EA11232A4F312300DE79C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,9 @@
 		75EA10F82A4F2FC300DE79C2 /* popular-pexels-ios */ = {
 			isa = PBXGroup;
 			children = (
-				75EA10F92A4F2FC300DE79C2 /* popular_pexels_iosApp.swift */,
+				75EA11252A4F330500DE79C2 /* Resources */,
+				75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */,
 				75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */,
-				75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */,
 				75EA10FF2A4F2FC400DE79C2 /* Preview Content */,
 			);
 			path = "popular-pexels-ios";
@@ -125,6 +127,15 @@
 				75EA11162A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift */,
 			);
 			path = "popular-pexels-iosUITests";
+			sourceTree = "<group>";
+		};
+		75EA11252A4F330500DE79C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75EA11232A4F312300DE79C2 /* Launch Screen.storyboard */,
+				75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA11242A4F312300DE79C2 /* Launch Screen.storyboard in Resources */,
 				75EA11012A4F2FC400DE79C2 /* Preview Assets.xcassets in Resources */,
 				75EA10FE2A4F2FC400DE79C2 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EA10FC2A4F2FC300DE79C2 /* ContentView.swift in Sources */,
-				75EA10FA2A4F2FC300DE79C2 /* popular_pexels_iosApp.swift in Sources */,
+				75EA10FA2A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +432,16 @@
 				DEVELOPMENT_TEAM = 8KR33X63ZD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Popular Pexels";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +449,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "duarte-bruno.popular-pexels-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +469,16 @@
 				DEVELOPMENT_TEAM = 8KR33X63ZD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Popular Pexels";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "duarte-bruno.popular-pexels-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
