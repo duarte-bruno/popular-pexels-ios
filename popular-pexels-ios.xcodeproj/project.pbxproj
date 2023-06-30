@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		75EA10FA2A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */; };
-		75EA10FC2A4F2FC300DE79C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */; };
 		75EA10FE2A4F2FC400DE79C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */; };
 		75EA11012A4F2FC400DE79C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA11002A4F2FC400DE79C2 /* Preview Assets.xcassets */; };
 		75EA110B2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA110A2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift */; };
 		75EA11152A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11142A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift */; };
 		75EA11172A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11162A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift */; };
 		75EA11242A4F312300DE79C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EA11232A4F312300DE79C2 /* Launch Screen.storyboard */; };
+		75EA11282A4F342B00DE79C2 /* PopularVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11272A4F342B00DE79C2 /* PopularVideosView.swift */; };
+		75EA11292A4F342B00DE79C2 /* PopularVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11272A4F342B00DE79C2 /* PopularVideosView.swift */; };
+		75EA112A2A4F342B00DE79C2 /* PopularVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EA11272A4F342B00DE79C2 /* PopularVideosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		75EA10F62A4F2FC300DE79C2 /* popular-pexels-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popular-pexels-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularPexelsiOSApp.swift; sourceTree = "<group>"; };
-		75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75EA11002A4F2FC400DE79C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75EA11062A4F2FC400DE79C2 /* popular-pexels-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popular-pexels-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +47,7 @@
 		75EA11142A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_pexels_iosUITests.swift; sourceTree = "<group>"; };
 		75EA11162A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_pexels_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75EA11232A4F312300DE79C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		75EA11272A4F342B00DE79C2 /* PopularVideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularVideosView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */,
-				75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */,
+				75EA11262A4F33F500DE79C2 /* View */,
 				75EA11252A4F330500DE79C2 /* Resources */,
 				75EA10FF2A4F2FC400DE79C2 /* Preview Content */,
 			);
@@ -136,6 +138,14 @@
 				75EA10FD2A4F2FC400DE79C2 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		75EA11262A4F33F500DE79C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75EA11272A4F342B00DE79C2 /* PopularVideosView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EA10FC2A4F2FC300DE79C2 /* ContentView.swift in Sources */,
+				75EA11282A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA10FA2A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA11292A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA110B2A4F2FC400DE79C2 /* popular_pexels_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA112A2A4F342B00DE79C2 /* PopularVideosView.swift in Sources */,
 				75EA11152A4F2FC400DE79C2 /* popular_pexels_iosUITests.swift in Sources */,
 				75EA11172A4F2FC400DE79C2 /* popular_pexels_iosUITestsLaunchTests.swift in Sources */,
 			);
