@@ -96,9 +96,9 @@
 		75EA10F82A4F2FC300DE79C2 /* popular-pexels-ios */ = {
 			isa = PBXGroup;
 			children = (
-				75EA11252A4F330500DE79C2 /* Resources */,
 				75EA10F92A4F2FC300DE79C2 /* PopularPexelsiOSApp.swift */,
 				75EA10FB2A4F2FC300DE79C2 /* ContentView.swift */,
+				75EA11252A4F330500DE79C2 /* Resources */,
 				75EA10FF2A4F2FC400DE79C2 /* Preview Content */,
 			);
 			path = "popular-pexels-ios";
