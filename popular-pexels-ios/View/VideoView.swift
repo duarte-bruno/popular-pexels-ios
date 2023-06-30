@@ -9,27 +9,33 @@ import SwiftUI
 import AVKit
 
 struct VideoView: View {
-    var video: Video
-    @State private var player = AVPlayer()
+    private let viewModel: VideoViewModel
+    @State private var player: AVPlayer
+    
+    init(_ viewModel: VideoViewModel) {
+        self.viewModel = viewModel
+        self.player = AVPlayer()
+    }
     
     var body: some View {
         NavigationView {
             VStack {
                 VideoPlayer(player: player)
                     .onAppear {
-                        if let link = video.videoFiles.first?.link, let url = URL(string: link) {
+                        if let link = viewModel.video.videoFiles.first?.link, let url = URL(string: link) {
                             player = AVPlayer(url: url)
                             player.play()
                         }
                     }
             }
-            .navigationBarTitle(video.user.name, displayMode: .inline)
+            .navigationBarTitle(viewModel.video.user.name, displayMode: .inline)
         }
     }
 }
 
 struct VideoView_Previews: PreviewProvider {
     static var previews: some View {
-        VideoView(video: videoPreview)
+        let viewModel = VideoViewModel(video: videoPreview)
+        VideoView(viewModel)
     }
 }
